@@ -1,0 +1,793 @@
+{
+  "overview": {
+    "records": 192098,
+    "unique_reg": 176276,
+    "findings_missing_pct": 66.47960936605274,
+    "diagnosis_missing_pct": 0.03852200439359077,
+    "age_median": 51.3,
+    "age_iqr": [
+      29.9,
+      66.5
+    ],
+    "age_missing_pct": 7.18539495465856,
+    "male_n": 104358,
+    "female_n": 87520,
+    "emergency_pct": 91.97545003071349
+  },
+  "change_point": {
+    "annual_change_year": 2020,
+    "annual_pre_mean": 14.466824404748383,
+    "annual_post_mean": 99.99835756873274,
+    "monthly_change_point": "2019-12-01",
+    "monthly_split_loo_stable_frac": 0.9791666666666666
+  },
+  "invariance": {
+    "prevalence_by_year": {
+      "hemorrhage": {
+        "2016": 23.685,
+        "2017": 22.358,
+        "2018": 21.964,
+        "2019": 19.97,
+        "2020": 17.94,
+        "2021": 16.853,
+        "2022": 19.791,
+        "2023": 21.227,
+        "2024": 20.107,
+        "2025": 20.096
+      },
+      "infarct_ischaemia": {
+        "2016": 20.922,
+        "2017": 20.947,
+        "2018": 21.876,
+        "2019": 20.75,
+        "2020": 20.03,
+        "2021": 21.99,
+        "2022": 25.016,
+        "2023": 24.781,
+        "2024": 27.267,
+        "2025": 28.157
+      },
+      "mass_tumour": {
+        "2016": 2.564,
+        "2017": 3.171,
+        "2018": 3.108,
+        "2019": 3.163,
+        "2020": 4.203,
+        "2021": 4.235,
+        "2022": 4.65,
+        "2023": 5.69,
+        "2024": 6.332,
+        "2025": 6.615
+      },
+      "atrophy": {
+        "2016": 13.988,
+        "2017": 12.53,
+        "2018": 13.913,
+        "2019": 14.588,
+        "2020": 13.814,
+        "2021": 14.723,
+        "2022": 16.459,
+        "2023": 16.09,
+        "2024": 17.235,
+        "2025": 17.62
+      },
+      "fracture": {
+        "2016": 21.759,
+        "2017": 20.342,
+        "2018": 20.217,
+        "2019": 17.823,
+        "2020": 17.536,
+        "2021": 16.806,
+        "2022": 19.053,
+        "2023": 21.436,
+        "2024": 20.397,
+        "2025": 19.77
+      },
+      "hydrocephalus": {
+        "2016": 0.205,
+        "2017": 0.109,
+        "2018": 0.226,
+        "2019": 0.096,
+        "2020": 0.166,
+        "2021": 0.151,
+        "2022": 0.309,
+        "2023": 0.474,
+        "2024": 0.599,
+        "2025": 0.858
+      },
+      "no_abnormality": {
+        "2016": 28.265,
+        "2017": 30.807,
+        "2018": 34.685,
+        "2019": 37.99,
+        "2020": 27.872,
+        "2021": 30.159,
+        "2022": 26.276,
+        "2023": 30.35,
+        "2024": 32.965,
+        "2025": 35.979
+      }
+    },
+    "pre_post": {
+      "hemorrhage": {
+        "pre_2018_19": 20.93450975518827,
+        "post_2020_21": 17.36126526082131,
+        "abs_change_pp": -3.5732444943669606,
+        "decade_trend_pp": -3.5889999999999986
+      },
+      "infarct_ischaemia": {
+        "pre_2018_19": 21.29489250652417,
+        "post_2020_21": 21.073806881243062,
+        "abs_change_pp": -0.2210856252811091,
+        "decade_trend_pp": 7.234999999999999
+      },
+      "mass_tumour": {
+        "pre_2018_19": 3.136572635764881,
+        "post_2020_21": 4.220310765815761,
+        "abs_change_pp": 1.0837381300508797,
+        "decade_trend_pp": 4.051
+      },
+      "atrophy": {
+        "pre_2018_19": 14.261215359761401,
+        "post_2020_21": 14.298002219755826,
+        "abs_change_pp": 0.036786859994425214,
+        "decade_trend_pp": 3.6320000000000014
+      },
+      "fracture": {
+        "pre_2018_19": 18.980986703119175,
+        "post_2020_21": 17.147613762486127,
+        "abs_change_pp": -1.8333729406330477,
+        "decade_trend_pp": -1.9890000000000008
+      },
+      "hydrocephalus": {
+        "pre_2018_19": 0.15906549024481173,
+        "post_2020_21": 0.158157602663707,
+        "abs_change_pp": -0.0009078875811047438,
+        "decade_trend_pp": 0.653
+      },
+      "no_abnormality": {
+        "pre_2018_19": 36.39120169007084,
+        "post_2020_21": 29.08990011098779,
+        "abs_change_pp": -7.301301579083045,
+        "decade_trend_pp": 7.713999999999999
+      }
+    }
+  },
+  "annual": [
+    {
+      "year": 2016,
+      "records": 16614,
+      "findings_missing_pct": 16.775009028530157,
+      "emergency_pct": 80.46226074395089,
+      "anatomy_mismatch_pct": 3.978572288431444,
+      "cross_ptr_pct": 11.147225231732275,
+      "median_diag_chars": 60.0,
+      "median_a2r_h": 2.0119444444444445,
+      "median_e2r_h": 0.6475
+    },
+    {
+      "year": 2017,
+      "records": 18356,
+      "findings_missing_pct": 15.144911745478318,
+      "emergency_pct": 77.76203966005666,
+      "anatomy_mismatch_pct": 2.631292220527348,
+      "cross_ptr_pct": 8.220745260405318,
+      "median_diag_chars": 61.0,
+      "median_a2r_h": 1.9783333333333333,
+      "median_e2r_h": 0.5277777777777778
+    },
+    {
+      "year": 2018,
+      "records": 19464,
+      "findings_missing_pct": 10.599054665022607,
+      "emergency_pct": 80.03493629264284,
+      "anatomy_mismatch_pct": 1.1662556514591038,
+      "cross_ptr_pct": 10.573366214549939,
+      "median_diag_chars": 69.0,
+      "median_a2r_h": 2.348888888888889,
+      "median_e2r_h": 0.6466666666666666
+    },
+    {
+      "year": 2019,
+      "records": 20771,
+      "findings_missing_pct": 15.348322179962448,
+      "emergency_pct": 83.91988830581099,
+      "anatomy_mismatch_pct": 14.732078378508499,
+      "cross_ptr_pct": 16.965962158779067,
+      "median_diag_chars": 69.0,
+      "median_a2r_h": 2.464166666666667,
+      "median_e2r_h": 0.8102777777777778
+    },
+    {
+      "year": 2020,
+      "records": 16845,
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 99.57257346393588,
+      "anatomy_mismatch_pct": 28.174532502226178,
+      "cross_ptr_pct": 23.490650044523598,
+      "median_diag_chars": 76.0,
+      "median_a2r_h": 2.4161111111111113,
+      "median_e2r_h": 0.8552777777777778
+    },
+    {
+      "year": 2021,
+      "records": 19195,
+      "findings_missing_pct": 99.99479030997655,
+      "emergency_pct": 98.7444647043501,
+      "anatomy_mismatch_pct": 27.06954936181297,
+      "cross_ptr_pct": 24.021880698098464,
+      "median_diag_chars": 80.0,
+      "median_a2r_h": 1.9833333333333334,
+      "median_e2r_h": 0.8086111111111111
+    },
+    {
+      "year": 2022,
+      "records": 19120,
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 98.06485355648536,
+      "anatomy_mismatch_pct": 23.640167364016737,
+      "cross_ptr_pct": 23.755230125523013,
+      "median_diag_chars": 83.0,
+      "median_a2r_h": 1.6247222222222222,
+      "median_e2r_h": 0.5673611111111111
+    },
+    {
+      "year": 2023,
+      "records": 21529,
+      "findings_missing_pct": 99.99535510241999,
+      "emergency_pct": 99.29397556783873,
+      "anatomy_mismatch_pct": 25.342561196525615,
+      "cross_ptr_pct": 28.08769566631056,
+      "median_diag_chars": 89.0,
+      "median_a2r_h": 1.4913888888888889,
+      "median_e2r_h": 0.46819444444444447
+    },
+    {
+      "year": 2024,
+      "records": 22709,
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 99.9295433528557,
+      "anatomy_mismatch_pct": 26.971685234928884,
+      "cross_ptr_pct": 28.02853494209344,
+      "median_diag_chars": 93.0,
+      "median_a2r_h": 1.4836111111111112,
+      "median_e2r_h": 0.45944444444444443
+    },
+    {
+      "year": 2025,
+      "records": 17491,
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 99.96569664398834,
+      "anatomy_mismatch_pct": 24.584071808358583,
+      "cross_ptr_pct": 30.14121548224801,
+      "median_diag_chars": 97.0,
+      "median_a2r_h": 1.321388888888889,
+      "median_e2r_h": 0.3913888888888889
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2018-01-01",
+      "findings_missing_pct": 18.637724550898206,
+      "emergency_pct": 75.59880239520959
+    },
+    {
+      "month": "2018-02-01",
+      "findings_missing_pct": 14.462490332559938,
+      "emergency_pct": 80.20108275328694
+    },
+    {
+      "month": "2018-03-01",
+      "findings_missing_pct": 13.470319634703195,
+      "emergency_pct": 74.54337899543378
+    },
+    {
+      "month": "2018-04-01",
+      "findings_missing_pct": 10.588901472253681,
+      "emergency_pct": 80.63420158550396
+    },
+    {
+      "month": "2018-05-01",
+      "findings_missing_pct": 8.114035087719298,
+      "emergency_pct": 81.57894736842105
+    },
+    {
+      "month": "2018-06-01",
+      "findings_missing_pct": 8.147254073627037,
+      "emergency_pct": 83.46409173204586
+    },
+    {
+      "month": "2018-07-01",
+      "findings_missing_pct": 10.1072840203275,
+      "emergency_pct": 81.70525127046866
+    },
+    {
+      "month": "2018-08-01",
+      "findings_missing_pct": 9.703337453646476,
+      "emergency_pct": 82.07663782447466
+    },
+    {
+      "month": "2018-09-01",
+      "findings_missing_pct": 8.138101109741061,
+      "emergency_pct": 79.90135635018495
+    },
+    {
+      "month": "2018-10-01",
+      "findings_missing_pct": 9.503885236102809,
+      "emergency_pct": 79.43813508667064
+    },
+    {
+      "month": "2018-11-01",
+      "findings_missing_pct": 9.723116548615582,
+      "emergency_pct": 79.58789439793948
+    },
+    {
+      "month": "2018-12-01",
+      "findings_missing_pct": 8.94308943089431,
+      "emergency_pct": 80.9255784865541
+    },
+    {
+      "month": "2019-01-01",
+      "findings_missing_pct": 9.683426443202979,
+      "emergency_pct": 82.68156424581005
+    },
+    {
+      "month": "2019-02-01",
+      "findings_missing_pct": 6.34304207119741,
+      "emergency_pct": 82.65372168284789
+    },
+    {
+      "month": "2019-03-01",
+      "findings_missing_pct": 5.664610207515423,
+      "emergency_pct": 77.9024116657319
+    },
+    {
+      "month": "2019-04-01",
+      "findings_missing_pct": 6.3146997929606625,
+      "emergency_pct": 80.07246376811594
+    },
+    {
+      "month": "2019-05-01",
+      "findings_missing_pct": 8.311552535284893,
+      "emergency_pct": 79.14270778881338
+    },
+    {
+      "month": "2019-06-01",
+      "findings_missing_pct": 6.561679790026247,
+      "emergency_pct": 82.57217847769029
+    },
+    {
+      "month": "2019-07-01",
+      "findings_missing_pct": 9.822784810126581,
+      "emergency_pct": 83.54430379746836
+    },
+    {
+      "month": "2019-08-01",
+      "findings_missing_pct": 8.617698091382302,
+      "emergency_pct": 91.03528050896472
+    },
+    {
+      "month": "2019-09-01",
+      "findings_missing_pct": 14.590964590964592,
+      "emergency_pct": 84.73748473748473
+    },
+    {
+      "month": "2019-10-01",
+      "findings_missing_pct": 14.133016627078385,
+      "emergency_pct": 85.80760095011877
+    },
+    {
+      "month": "2019-11-01",
+      "findings_missing_pct": 12.89245156980628,
+      "emergency_pct": 86.5063460253841
+    },
+    {
+      "month": "2019-12-01",
+      "findings_missing_pct": 90.69916613213599,
+      "emergency_pct": 92.81590763309813
+    },
+    {
+      "month": "2020-01-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 99.53560371517027
+    },
+    {
+      "month": "2020-02-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 97.28331177231566
+    },
+    {
+      "month": "2020-03-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 98.91304347826086
+    },
+    {
+      "month": "2020-04-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 98.58203916272788
+    },
+    {
+      "month": "2020-05-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 99.8220640569395
+    },
+    {
+      "month": "2020-06-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 99.60106382978722
+    },
+    {
+      "month": "2020-07-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 99.93819530284301
+    },
+    {
+      "month": "2020-08-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 100.0
+    },
+    {
+      "month": "2020-09-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 99.93238674780257
+    },
+    {
+      "month": "2020-10-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 100.0
+    },
+    {
+      "month": "2020-11-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 100.0
+    },
+    {
+      "month": "2020-12-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 100.0
+    },
+    {
+      "month": "2021-01-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 100.0
+    },
+    {
+      "month": "2021-02-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 100.0
+    },
+    {
+      "month": "2021-03-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 100.0
+    },
+    {
+      "month": "2021-04-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 100.0
+    },
+    {
+      "month": "2021-05-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 100.0
+    },
+    {
+      "month": "2021-06-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 99.94165694282381
+    },
+    {
+      "month": "2021-07-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 97.19298245614036
+    },
+    {
+      "month": "2021-08-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 97.91395045632333
+    },
+    {
+      "month": "2021-09-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 98.32610043397396
+    },
+    {
+      "month": "2021-10-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 97.41480611045829
+    },
+    {
+      "month": "2021-11-01",
+      "findings_missing_pct": 99.92952783650459,
+      "emergency_pct": 97.53347427766033
+    },
+    {
+      "month": "2021-12-01",
+      "findings_missing_pct": 100.0,
+      "emergency_pct": 96.49122807017544
+    }
+  ],
+  "sample": {
+    "n_total": 24000,
+    "n_train": 18015,
+    "n_test": 5985,
+    "train_test_reg_overlap": 0
+  },
+  "metadata_ablation": {
+    "full": {
+      "roc_auc": 0.9836854133196882,
+      "average_precision": 0.9698290816162507,
+      "balanced_accuracy": 0.978032784065922,
+      "f1": 0.9784999179386181,
+      "roc_auc_95ci": [
+        0.9806766994562409,
+        0.9869460251667243
+      ],
+      "average_precision_95ci": [
+        0.9605889405918883,
+        0.9767272494082047
+      ],
+      "coefficients": {
+        "miss": 3.688,
+        "emerg": 1.508,
+        "dlen": 0.588,
+        "flen": -2.466,
+        "hour": 0.013
+      }
+    },
+    "without_findings_missing": {
+      "roc_auc": 0.9836832915037801,
+      "average_precision": 0.9698079949452455,
+      "balanced_accuracy": 0.978032784065922,
+      "f1": 0.9784999179386181,
+      "roc_auc_95ci": [
+        0.9806697171552342,
+        0.9869454346788061
+      ],
+      "average_precision_95ci": [
+        0.9605957246959573,
+        0.9767189231120552
+      ]
+    },
+    "without_emergency_marker": {
+      "roc_auc": 0.9813139490187941,
+      "average_precision": 0.9670102702501355,
+      "balanced_accuracy": 0.9614607876135981,
+      "f1": 0.9634009908902029,
+      "roc_auc_95ci": [
+        0.9774554661688232,
+        0.9847504477122891
+      ],
+      "average_precision_95ci": [
+        0.9576083577710905,
+        0.9736899713720251
+      ]
+    },
+    "without_explicit_schema_markers": {
+      "roc_auc": 0.9813093703634135,
+      "average_precision": 0.9669998133656883,
+      "balanced_accuracy": 0.9614607876135981,
+      "f1": 0.9634009908902029,
+      "roc_auc_95ci": [
+        0.9774471984641481,
+        0.984747811094162
+      ],
+      "average_precision_95ci": [
+        0.9576140328740977,
+        0.9736776333314361
+      ]
+    },
+    "lengths_only": {
+      "roc_auc": 0.9813050150570757,
+      "average_precision": 0.9668969688901331,
+      "balanced_accuracy": 0.9614607876135981,
+      "f1": 0.9634009908902029,
+      "roc_auc_95ci": [
+        0.9773566584250261,
+        0.9847220058075611
+      ],
+      "average_precision_95ci": [
+        0.9576283027590903,
+        0.9735721950114352
+      ]
+    },
+    "report_hour_only": {
+      "roc_auc": 0.51303118823701,
+      "average_precision": 0.5112888704676265,
+      "balanced_accuracy": 0.5123979378629562,
+      "f1": 0.48126442905345407,
+      "roc_auc_95ci": [
+        0.5011159762165678,
+        0.5275498779963325
+      ],
+      "average_precision_95ci": [
+        0.4914074840655736,
+        0.5277094605910547
+      ]
+    }
+  },
+  "counterfactual_relocation": {
+    "eligible": 2580,
+    "median_prob_original": 0.00041052512161557494,
+    "median_prob_relocated": 0.9741151188309964,
+    "median_change": 0.9736740786543846,
+    "mean_change": 0.9032343838048439,
+    "frac_crossing_up": 0.9166666666666666
+  },
+  "counterfactual_emergency_removal": {
+    "eligible": 2981,
+    "median_prob_original": 0.9743523787001684,
+    "median_prob_removed": 0.1855095148258913,
+    "frac_crossing_down": 1.0
+  },
+  "text_perturbation": {
+    "raw_full": {
+      "roc_auc": 0.983550733846783,
+      "average_precision": 0.972434681135154,
+      "balanced_accuracy": 0.9811823405952297,
+      "f1": 0.9816813869807001,
+      "roc_auc_95ci": [
+        0.9800068049376655,
+        0.987160337073079
+      ],
+      "average_precision_95ci": [
+        0.9657387257075842,
+        0.9801749732293121
+      ]
+    },
+    "raw_prefix_64": {
+      "roc_auc": 0.9830079956723888,
+      "average_precision": 0.9719507846332113,
+      "balanced_accuracy": 0.9811847415974415,
+      "f1": 0.981675392670157,
+      "roc_auc_95ci": [
+        0.9792860633027599,
+        0.9863392091340591
+      ],
+      "average_precision_95ci": [
+        0.9650454639404846,
+        0.9796012803538139
+      ]
+    },
+    "raw_suffix_64": {
+      "roc_auc": 0.9103571864899738,
+      "average_precision": 0.9068823564317887,
+      "balanced_accuracy": 0.8138821815930459,
+      "f1": 0.8100187425455785,
+      "roc_auc_95ci": [
+        0.9043413956080933,
+        0.9170370834765799
+      ],
+      "average_precision_95ci": [
+        0.8973805664793528,
+        0.9160022543667975
+      ]
+    },
+    "template_normalised": {
+      "roc_auc": 0.8127311523001489,
+      "average_precision": 0.8099331801650902,
+      "balanced_accuracy": 0.7320229705556723,
+      "f1": 0.7118522503137887,
+      "roc_auc_95ci": [
+        0.8014366584058444,
+        0.822791198099732
+      ],
+      "average_precision_95ci": [
+        0.7946591651329158,
+        0.8216611664691854
+      ]
+    },
+    "norm_prefix_64": {
+      "roc_auc": 0.7703857371981353,
+      "average_precision": 0.7624573068140075,
+      "balanced_accuracy": 0.7035693633904563,
+      "f1": 0.6914523974982627,
+      "roc_auc_95ci": [
+        0.7588180023407446,
+        0.7820510616376003
+      ],
+      "average_precision_95ci": [
+        0.7453590686217065,
+        0.7766043329247426
+      ]
+    },
+    "norm_suffix_64": {
+      "roc_auc": 0.7785758907662369,
+      "average_precision": 0.7738870823339713,
+      "balanced_accuracy": 0.7127104813462231,
+      "f1": 0.7102425876010782,
+      "roc_auc_95ci": [
+        0.7677012275439541,
+        0.7897999875347572
+      ],
+      "average_precision_95ci": [
+        0.7580420339086706,
+        0.7887559088987834
+      ]
+    }
+  },
+  "split_stress": {
+    "random_report_split": {
+      "roc_auc": 0.9849378888888889,
+      "reg_overlap": 217
+    },
+    "patient_grouped_split": {
+      "roc_auc": 0.983550733846783,
+      "reg_overlap": 0
+    }
+  },
+  "year_transfer": {
+    "n_train": 24000,
+    "n_test": 23520,
+    "raw": {
+      "roc_auc": 0.9649834019357635,
+      "average_precision": 0.9391496552566351,
+      "balanced_accuracy": 0.960589031463811,
+      "f1": 0.9621106271061067,
+      "roc_auc_95ci": [
+        0.9622587160070235,
+        0.9669740193071719
+      ],
+      "average_precision_95ci": [
+        0.9333363478047787,
+        0.9433268963147923
+      ]
+    },
+    "normalised": {
+      "roc_auc": 0.684245060892953,
+      "average_precision": 0.6611377620434857,
+      "balanced_accuracy": 0.6412564588592702,
+      "f1": 0.6648635748945987,
+      "roc_auc_95ci": [
+        0.677678214024196,
+        0.6921402921927547
+      ],
+      "average_precision_95ci": [
+        0.6520430636345597,
+        0.6700838587962668
+      ]
+    }
+  },
+  "canonicalisation_remedy": {
+    "era_auc_raw_text": 0.983550733846783,
+    "era_auc_canonical_text": 0.8127311523001489,
+    "era_auc_canonical_year_transfer": 0.684245060892953,
+    "clinical_content_retention": {
+      "hemorrhage": {
+        "before": 20.382729288785697,
+        "after": 20.37908523951815,
+        "retained_pp": -0.0036440492675460234
+      },
+      "infarct_ischaemia": {
+        "before": 23.279748456484846,
+        "after": 23.279748456484846,
+        "retained_pp": 0.0
+      },
+      "mass_tumour": {
+        "before": 4.424916967734547,
+        "after": 4.424916967734547,
+        "retained_pp": 0.0
+      },
+      "atrophy": {
+        "before": 15.16028610992535,
+        "after": 15.16028610992535,
+        "retained_pp": 0.0
+      },
+      "fracture": {
+        "before": 19.528980603246325,
+        "after": 19.528980603246325,
+        "retained_pp": 0.0
+      },
+      "hydrocephalus": {
+        "before": 0.32379980634481037,
+        "after": 0.32379980634481037,
+        "retained_pp": 0.0
+      },
+      "no_abnormality": {
+        "before": 31.658458879506906,
+        "after": 31.65585598717295,
+        "retained_pp": -0.002602892333957385
+      }
+    }
+  }
+}

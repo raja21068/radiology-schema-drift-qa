@@ -1,0 +1,445 @@
+{
+  "downstream_harm": {
+    "completeness_missing_findings_rule": {
+      "pre_2018_19": 12.975,
+      "post_2020_21": 99.995,
+      "fold_change": 7.706743737957611,
+      "by_year": {
+        "2016": 16.78,
+        "2017": 15.14,
+        "2018": 10.6,
+        "2019": 15.35,
+        "2020": 100.0,
+        "2021": 99.99,
+        "2022": 100.0,
+        "2023": 100.0,
+        "2024": 100.0,
+        "2025": 100.0
+      }
+    },
+    "anatomy_mismatch_rule": {
+      "pre_2018_19": 7.95,
+      "post_2020_21": 27.62,
+      "fold_change": 3.4742138364779875,
+      "by_year": {
+        "2016": 3.98,
+        "2017": 2.63,
+        "2018": 1.17,
+        "2019": 14.73,
+        "2020": 28.17,
+        "2021": 27.07,
+        "2022": 23.64,
+        "2023": 25.34,
+        "2024": 26.97,
+        "2025": 24.58
+      }
+    },
+    "external_pointer_rule": {
+      "pre_2018_19": 13.77,
+      "post_2020_21": 23.755,
+      "fold_change": 1.7251270878721858,
+      "by_year": {
+        "2016": 11.15,
+        "2017": 8.22,
+        "2018": 10.57,
+        "2019": 16.97,
+        "2020": 23.49,
+        "2021": 24.02,
+        "2022": 23.76,
+        "2023": 28.09,
+        "2024": 28.03,
+        "2025": 30.14
+      }
+    },
+    "true_hemorrhage_prevalence": {
+      "pre_2018_19": 20.965,
+      "post_2020_21": 17.395000000000003,
+      "fold_change": 0.8297161936560936,
+      "by_year": {
+        "2016": 23.68,
+        "2017": 22.36,
+        "2018": 21.96,
+        "2019": 19.97,
+        "2020": 17.94,
+        "2021": 16.85,
+        "2022": 19.79,
+        "2023": 21.23,
+        "2024": 20.11,
+        "2025": 20.1
+      }
+    },
+    "note": "Completeness and anatomy-mismatch alert rates jump several-fold at the Dec-2019 migration while hemorrhage prevalence is flat; the alerts reflect documentation structure, not true errors."
+  },
+  "drift_monitor": {
+    "monthly": [
+      {
+        "month": "2018-01-01",
+        "psi_length": 0.0584,
+        "psi_missing": 0.0529,
+        "n": 1336,
+        "psi_combined": 0.0584
+      },
+      {
+        "month": "2018-02-01",
+        "psi_length": 0.0415,
+        "psi_missing": 0.0137,
+        "n": 1293,
+        "psi_combined": 0.0415
+      },
+      {
+        "month": "2018-03-01",
+        "psi_length": 0.0446,
+        "psi_missing": 0.0078,
+        "n": 1752,
+        "psi_combined": 0.0446
+      },
+      {
+        "month": "2018-04-01",
+        "psi_length": 0.0221,
+        "psi_missing": 0.0,
+        "n": 1766,
+        "psi_combined": 0.0221
+      },
+      {
+        "month": "2018-05-01",
+        "psi_length": 0.0171,
+        "psi_missing": 0.0073,
+        "n": 1824,
+        "psi_combined": 0.0171
+      },
+      {
+        "month": "2018-06-01",
+        "psi_length": 0.008,
+        "psi_missing": 0.0071,
+        "n": 1657,
+        "psi_combined": 0.008
+      },
+      {
+        "month": "2018-07-01",
+        "psi_length": 0.0362,
+        "psi_missing": 0.0003,
+        "n": 1771,
+        "psi_combined": 0.0362
+      },
+      {
+        "month": "2018-08-01",
+        "psi_length": 0.0116,
+        "psi_missing": 0.0009,
+        "n": 1618,
+        "psi_combined": 0.0116
+      },
+      {
+        "month": "2018-09-01",
+        "psi_length": 0.0163,
+        "psi_missing": 0.0072,
+        "n": 1622,
+        "psi_combined": 0.0163
+      },
+      {
+        "month": "2018-10-01",
+        "psi_length": 0.0257,
+        "psi_missing": 0.0013,
+        "n": 1673,
+        "psi_combined": 0.0257
+      },
+      {
+        "month": "2018-11-01",
+        "psi_length": 0.0228,
+        "psi_missing": 0.0008,
+        "n": 1553,
+        "psi_combined": 0.0228
+      },
+      {
+        "month": "2018-12-01",
+        "psi_length": 0.0452,
+        "psi_missing": 0.0031,
+        "n": 1599,
+        "psi_combined": 0.0452
+      },
+      {
+        "month": "2019-01-01",
+        "psi_length": 0.0474,
+        "psi_missing": 0.0009,
+        "n": 1611,
+        "psi_combined": 0.0474
+      },
+      {
+        "month": "2019-02-01",
+        "psi_length": 0.0453,
+        "psi_missing": 0.0238,
+        "n": 1545,
+        "psi_combined": 0.0453
+      },
+      {
+        "month": "2019-03-01",
+        "psi_length": 0.0171,
+        "psi_missing": 0.0336,
+        "n": 1783,
+        "psi_combined": 0.0336
+      },
+      {
+        "month": "2019-04-01",
+        "psi_length": 0.0467,
+        "psi_missing": 0.0242,
+        "n": 1932,
+        "psi_combined": 0.0467
+      },
+      {
+        "month": "2019-05-01",
+        "psi_length": 0.6976,
+        "psi_missing": 0.0061,
+        "n": 1913,
+        "psi_combined": 0.6976
+      },
+      {
+        "month": "2019-06-01",
+        "psi_length": 0.6127,
+        "psi_missing": 0.0211,
+        "n": 1905,
+        "psi_combined": 0.6127
+      },
+      {
+        "month": "2019-07-01",
+        "psi_length": 0.6187,
+        "psi_missing": 0.0007,
+        "n": 1975,
+        "psi_combined": 0.6187
+      },
+      {
+        "month": "2019-08-01",
+        "psi_length": 0.6218,
+        "psi_missing": 0.0045,
+        "n": 1729,
+        "psi_combined": 0.6218
+      },
+      {
+        "month": "2019-09-01",
+        "psi_length": 0.5389,
+        "psi_missing": 0.0146,
+        "n": 1638,
+        "psi_combined": 0.5389
+      },
+      {
+        "month": "2019-10-01",
+        "psi_length": 0.5827,
+        "psi_missing": 0.0116,
+        "n": 1684,
+        "psi_combined": 0.5827
+      },
+      {
+        "month": "2019-11-01",
+        "psi_length": 0.5303,
+        "psi_missing": 0.0051,
+        "n": 1497,
+        "psi_combined": 0.5303
+      },
+      {
+        "month": "2019-12-01",
+        "psi_length": 1.036,
+        "psi_missing": 3.5323,
+        "n": 1559,
+        "psi_combined": 3.5323
+      },
+      {
+        "month": "2020-01-01",
+        "psi_length": 1.4863,
+        "psi_missing": 10.1396,
+        "n": 1292,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-02-01",
+        "psi_length": 1.6702,
+        "psi_missing": 10.1396,
+        "n": 773,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-03-01",
+        "psi_length": 1.7594,
+        "psi_missing": 10.1396,
+        "n": 1196,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-04-01",
+        "psi_length": 1.7186,
+        "psi_missing": 10.1396,
+        "n": 1481,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-05-01",
+        "psi_length": 1.5673,
+        "psi_missing": 10.1396,
+        "n": 1686,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-06-01",
+        "psi_length": 1.537,
+        "psi_missing": 10.1396,
+        "n": 1504,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-07-01",
+        "psi_length": 1.6014,
+        "psi_missing": 10.1396,
+        "n": 1618,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-08-01",
+        "psi_length": 1.5636,
+        "psi_missing": 10.1396,
+        "n": 1531,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-09-01",
+        "psi_length": 1.6125,
+        "psi_missing": 10.1396,
+        "n": 1479,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-10-01",
+        "psi_length": 1.5837,
+        "psi_missing": 10.1396,
+        "n": 1510,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-11-01",
+        "psi_length": 1.5905,
+        "psi_missing": 10.1396,
+        "n": 1424,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2020-12-01",
+        "psi_length": 1.7276,
+        "psi_missing": 10.1396,
+        "n": 1351,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-01-01",
+        "psi_length": 1.7527,
+        "psi_missing": 10.1396,
+        "n": 1479,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-02-01",
+        "psi_length": 1.8211,
+        "psi_missing": 10.1396,
+        "n": 1323,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-03-01",
+        "psi_length": 1.8304,
+        "psi_missing": 10.1396,
+        "n": 1643,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-04-01",
+        "psi_length": 1.7622,
+        "psi_missing": 10.1396,
+        "n": 1682,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-05-01",
+        "psi_length": 1.7792,
+        "psi_missing": 10.1396,
+        "n": 1837,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-06-01",
+        "psi_length": 1.7262,
+        "psi_missing": 10.1396,
+        "n": 1714,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-07-01",
+        "psi_length": 1.7757,
+        "psi_missing": 10.1396,
+        "n": 1710,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-08-01",
+        "psi_length": 1.7555,
+        "psi_missing": 10.1396,
+        "n": 1534,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-09-01",
+        "psi_length": 1.695,
+        "psi_missing": 10.1396,
+        "n": 1613,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-10-01",
+        "psi_length": 1.7044,
+        "psi_missing": 10.1396,
+        "n": 1702,
+        "psi_combined": 10.1396
+      },
+      {
+        "month": "2021-11-01",
+        "psi_length": 1.5331,
+        "psi_missing": 8.3876,
+        "n": 1419,
+        "psi_combined": 8.3876
+      },
+      {
+        "month": "2021-12-01",
+        "psi_length": 1.6047,
+        "psi_missing": 10.1396,
+        "n": 1539,
+        "psi_combined": 10.1396
+      }
+    ],
+    "alert_threshold": 0.25,
+    "first_month_over_threshold": "2019-05-01",
+    "max_psi": 10.139577287896797,
+    "note": "PSI>0.25 is the conventional 'major population shift' alert level used in model monitoring."
+  },
+  "copy_forward": {
+    "identifiers_with_multiple": 13146,
+    "max_records_one_id": 10,
+    "records_per_id_distribution": {
+      "1": 163130,
+      "2": 11081,
+      "3": 1634,
+      "4": 316,
+      "5": 81,
+      "6": 16,
+      "7": 11,
+      "8": 3,
+      "9": 2,
+      "10": 2
+    },
+    "n_consecutive_pairs": 15822,
+    "median_interval_days": 35.0,
+    "sampled": 10000,
+    "median_similarity": 0.2201068425874914,
+    "p90_similarity": 0.7945738576694629,
+    "prop_ge_080": 0.0972,
+    "prop_ge_090": 0.0582,
+    "exact_repeat_pairs_all": 634,
+    "median_sim_short_interval": 0.19025669502697923,
+    "median_sim_long_interval": 0.2457962679154585,
+    "prop_ge_090_short": 0.04802604802604803,
+    "prop_ge_090_long": 0.06881720430107527
+  }
+}
